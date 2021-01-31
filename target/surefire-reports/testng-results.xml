@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="105" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
+  <suite name="Surefire suite" duration-ms="103" started-at="2021-01-31T19:13:53 IST" finished-at="2021-01-31T19:13:53 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="105" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
+    <test name="Surefire test" duration-ms="103" started-at="2021-01-31T19:13:53 IST" finished-at="2021-01-31T19:13:53 IST">
+      <class name="integrationDemo.integration1.ThirdTest">
+        <test-method status="PASS" signature="methodthreetest()[pri:0, instance:integrationDemo.integration1.ThirdTest@4566e5bd]" name="methodthreetest" duration-ms="1" started-at="2021-01-31T19:13:53 IST" finished-at="2021-01-31T19:13:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodthreetest -->
+      </class> <!-- integrationDemo.integration1.ThirdTest -->
       <class name="integrationDemo.integration1.SecondTest">
-        <test-method status="PASS" signature="methodtwotest()[pri:0, instance:integrationDemo.integration1.SecondTest@13805618]" name="methodtwotest" duration-ms="3" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
+        <test-method status="PASS" signature="methodtwotest()[pri:0, instance:integrationDemo.integration1.SecondTest@56ef9176]" name="methodtwotest" duration-ms="0" started-at="2021-01-31T19:13:53 IST" finished-at="2021-01-31T19:13:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodtwotest -->
       </class> <!-- integrationDemo.integration1.SecondTest -->
       <class name="integrationDemo.integration1.FirstTest">
-        <test-method status="PASS" signature="methodOneTest()[pri:0, instance:integrationDemo.integration1.FirstTest@cb644e]" name="methodOneTest" duration-ms="12" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
+        <test-method status="PASS" signature="methodOneTest()[pri:0, instance:integrationDemo.integration1.FirstTest@13805618]" name="methodOneTest" duration-ms="10" started-at="2021-01-31T19:13:53 IST" finished-at="2021-01-31T19:13:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodOneTest -->

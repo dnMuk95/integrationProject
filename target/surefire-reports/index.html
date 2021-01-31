@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="integrationDemo.integration1.FirstTest" hash-for-method="methodOneTest">methodOneTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="integrationDemo.integration1.ThirdTest" hash-for-method="methodthreetest">methodthreetest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,6 +129,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">integrationDemo.integration1.ThirdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="methodthreetest">
+                  </a> <!-- methodthreetest -->
+                  <span class="method-name">methodthreetest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -167,6 +187,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;integrationDemo.integration1.FirstTest&quot;/&gt;
       &lt;class name=&quot;integrationDemo.integration1.SecondTest&quot;/&gt;
+      &lt;class name=&quot;integrationDemo.integration1.ThirdTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -180,7 +201,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Surefire test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,20 +227,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'methodOneTest')
 data.setCell(0, 2, 'integrationDemo.integration1.FirstTest')
-data.setCell(0, 3, 12);
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'methodtwotest')
-data.setCell(1, 2, 'integrationDemo.integration1.SecondTest')
-data.setCell(1, 3, 3);
+data.setCell(1, 1, 'methodthreetest')
+data.setCell(1, 2, 'integrationDemo.integration1.ThirdTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'methodtwotest')
+data.setCell(2, 2, 'integrationDemo.integration1.SecondTest')
+data.setCell(2, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 ms</span>
+              <span class="suite-total-time">Total running time: 11 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -255,7 +280,14 @@ return data;
               <div class="chronological-class-name">integrationDemo.integration1.SecondTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">methodtwotest</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">integrationDemo.integration1.ThirdTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">methodthreetest</span>
+                <span class="method-start">24 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
