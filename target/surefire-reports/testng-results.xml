@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="95" started-at="2021-01-31T16:01:11 IST" finished-at="2021-01-31T16:01:11 IST">
+  <suite name="Surefire suite" duration-ms="105" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="95" started-at="2021-01-31T16:01:11 IST" finished-at="2021-01-31T16:01:11 IST">
+    <test name="Surefire test" duration-ms="105" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
+      <class name="integrationDemo.integration1.SecondTest">
+        <test-method status="PASS" signature="methodtwotest()[pri:0, instance:integrationDemo.integration1.SecondTest@13805618]" name="methodtwotest" duration-ms="3" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtwotest -->
+      </class> <!-- integrationDemo.integration1.SecondTest -->
       <class name="integrationDemo.integration1.FirstTest">
-        <test-method status="PASS" signature="methodOneTest()[pri:0, instance:integrationDemo.integration1.FirstTest@5cb9f472]" name="methodOneTest" duration-ms="11" started-at="2021-01-31T16:01:11 IST" finished-at="2021-01-31T16:01:11 IST">
+        <test-method status="PASS" signature="methodOneTest()[pri:0, instance:integrationDemo.integration1.FirstTest@cb644e]" name="methodOneTest" duration-ms="12" started-at="2021-01-31T16:51:09 IST" finished-at="2021-01-31T16:51:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodOneTest -->
